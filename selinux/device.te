@@ -1,4 +1,4 @@
-type powervr_device, dev_type, mlstrustedobject;
+#type powervr_device, dev_type, mlstrustedobject;
 
 type rfkill_device, dev_type;
 
