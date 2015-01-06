@@ -51,6 +51,8 @@ on fs
 	mount_all /fstab.steelhead
 	setprop ro.crypto.fuse_sdcard true
 
+	insmod /system/lib/modules/g_audio.ko
+
 # H264 Encoder Profile setting
 # 1 - Base Profile
 # 2 - Main Profile
